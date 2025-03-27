@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sattım Gitti</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- ---------- CSS -------- -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--!  -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ! -->
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  -->
+  </head>
+  <body>
+    <!-- ! Header Start -->
+    <header class="header">
+      <div class="header-1 container-1">
+        <div class="logo">
+          <a href="#">sattım gitti.</a>
+        </div>
+
+        <div class="header-search-box">
+          <div class="header-search">
+            <div class="input-box">
+              <input
+                class="header-search-input"
+                type="text"
+                placeholder="Kelime,İlan No veya Mağaza Adı İle Arama"
+              />
+              <a class="plane" href="#"
+                ><img src="images/plane.svg" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="detay">
+            <a href="#">Detaylı Arama Başlat</a>
+          </div>
+        </div>
+
+        <div class="account">
+          <button>Giriş Yap</button>
+          <button>Hesap Oluştur</button>
+          <button>Ücretsiz İlan Ver*</button>
+        </div>
+      </div>
+    </header>
+    <!-- ! Header End -->
+
+    <!-- ! Story Start -->
+
+    <section class="stories">
+      <button id="prev-st" class="st-btn">
+        <i class="las la-angle-left"></i>
+      </button>
+      <div class="st-container swiper mySwiper-st">
+        <div class="st-container-1 swiper-wrapper"></div>
+      </div>
+      <button id="next-st" class="st-btn">
+        <i class="las la-angle-right"></i>
+      </button>
+
+      <div class="story-full">
+        <div class="content">
+          <div class="close-btn">
+            <i class="fa-solid fa-x"></i>
+          </div>
+          <div class="left-arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <img src="images/showcase/ev2.png" alt="" />
+          <div class="right-arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="st-title">TEST TİTLE</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! Story End -->
+
+    <!-- ! Slider Start -->
+    <section class="slider">
+      <div class="slider-main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img class="slider-image" src="images/slider/slider-1.png" alt="" />
+            <div class="image-data">
+              <span class="text">12.700.000 ₺</span>
+              <p>
+                Antalyada Muratpaşada Satılık Ful Eşyalı V Deniz Manzaralı Villa
+              </p>
+            </div>
+          </div>
+
+          <div class="slide swiper-slide">
+            <img class="slider-image" src="images/slider/slider-2.png" alt="" />
+            <div class="image-data">
+              <span class="text">12.700.000 ₺</span>
+              <p>
+                Antalyada Muratpaşada Satılık Ful Eşyalı V Deniz Manzaralı Villa
+              </p>
+            </div>
+          </div>
+
+          <div class="slide swiper-slide">
+            <img class="slider-image" src="images/slider/slider-3.png" alt="" />
+            <div class="image-data">
+              <span class="text">12.700.000 ₺</span>
+              <p>
+                Antalyada Muratpaşada Satılık Ful Eşyalı V Deniz Manzaralı Villa
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- ! search start -->
+      <div class="search">
+        <div class="tab-box">
+          <button class="tab-btn active">
+            Vasıta İlanları
+            <p>409.923 ilan</p>
+          </button>
+          <button class="tab-btn">
+            Emlak İlanları <br />
+            <p>409.923 ilan</p>
+          </button>
+          <div class="line"></div>
+        </div>
+        <div class="content-box">
+          <!-- ! Vasıta -->
+          <div class="content-s active">
+            <!-- -----------car-icons start----------------->
+            <div class="icons">
+              <div class="car-box">
+                <button>
+                  <img
+                    class="icon-btn aa1 active"
+                    src="images/car-icons/araba.png"
+                    alt=""
+                  />
+                </button>
+                <button>
+                  <img
+                    class="icon-btn"
+                    src="images/car-icons/arazi.png"
+                    alt=""
+                  />
+                </button>
+                <button>
+                  <img
+                    class="icon-btn"
+                    src="images/car-icons/otobüs.png"
+                    alt=""
+                  />
+                </button>
+                <button>
+                  <img
+                    class="icon-btn"
+                    src="images/car-icons/minibüs.png"
+                    alt=""
+                  />
+                </button>
+                <button>
+                  <img
+                    class="icon-btn"
+                    src="images/car-icons/traktör.png"
+                    alt=""
+                  />
+                </button>
+                <button>
+                  <img class="icon-btn" src="images/car-icons/tır.png" alt="" />
+                </button>
+                <button>
+                  <img
+                    class="icon-btn"
+                    src="images/car-icons/helikopter.png"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </div>
+            <!-- -----------car-icons end----------------->
+            <!-- ------------options start ------------>
+            <div class="option-box">
+              <div class="options">
+                <div class="box-display">
+                  <div class="option-display active">
+                    <div class="option option-1 option-11">
+                      <div class="imggg">
+                        <img src="images/car-icons/araba.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="option-display">
+                    <div class="option option-1">
+                      <div class="imggg">
+                        <img src="images/car-icons/arazi.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="option-display">
+                    <div class="option option-1">
+                      <div class="imggg">
+                        <img src="images/car-icons/otobüs.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="option-display">
+                    <div class="option option-1">
+                      <div class="imggg">
+                        <img src="images/car-icons/minibüs.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="option-display">
+                    <div class="option option-1">
+                      <div class="imggg">
+                        <img src="images/car-icons/traktör.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="option-display">
+                    <div class="option option-1">
+                      <div class="imggg">
+                        <img src="images/car-icons/tır.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="option-display">
+                    <div class="option option-1">
+                      <div class="imggg">
+                        <img src="images/car-icons/helikopter.png" alt="" />
+                      </div>
+                      <div class="sag">
+                        <p>Otomobil Türü</p>
+                        <select>
+                          <option>Seçenek 1</option>
+                          <option>Seçenek 2</option>
+                          <option>Seçenek 3</option>
+                          <option>Seçenek 4</option>
+                          <option>Seçenek 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="option">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div class="sag">
+                    <p>Adres</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="option">
+                  <i class="fa-solid fa-turkish-lira-sign"></i>
+                  <div class="sag">
+                    <p>Fiyat Aralığı</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="option">
+                  <i class="fa-solid fa-calendar"></i>
+                  <div class="sag">
+                    <p>Yıl</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -----------options end----------- -->
+            <!-- -----------result start----------- -->
+            <div class="result-box">
+              <a href="#" class="results">
+                <div>
+                  <p>7 İlan</p>
+                  <p>Tümünü Görüntüle</p>
+                </div>
+              </a>
+            </div>
+            <!-- -----------result end----------- -->
+          </div>
+          <!-- ! Emlak -->
+          <div class="content-s">
+            <div class="option-box">
+              <div class="options">
+                <div class="option option-1">
+                  <i class="fa-solid fa-car"></i>
+                  <div class="sag">
+                    <p>Emlak Türü</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="option option-2">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div class="sag">
+                    <p>Adres</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="option option-3">
+                  <i class="fa-solid fa-turkish-lira-sign"></i>
+                  <div class="sag">
+                    <p>Fiyat Aralığı</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="option option-4">
+                  <i class="fa-solid fa-calendar"></i>
+                  <div class="sag">
+                    <p>Yıl</p>
+                    <select>
+                      <option>Seçenek 1</option>
+                      <option>Seçenek 2</option>
+                      <option>Seçenek 3</option>
+                      <option>Seçenek 4</option>
+                      <option>Seçenek 5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="result-box">
+              <a href="#" class="results">
+                <div>
+                  <p>7 İlan</p>
+                  <p>Tümünü Görüntüle</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ! search End -->
+    </section>
+    <!-- ! Slider End -->
+    <!-- ! Showcase Start -->
+    <section class="showcase">
+      <div class="showcase-header"><p>Vitrin İlanları</p></div>
+      <div class="showcase-1">
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="advert">
+          <a href="#">
+            <div class="product-div">
+              <img
+                class="product-img"
+                src="images/showcase/ev2.png"
+                alt="product-1"
+              />
+              <div class="product-content">
+                <div class="ust">
+                  Ankara Gözde Projesi Mamakda Sizde Yerinizi Alın Bu Fırsatı
+                  Kaçırmayın
+                </div>
+
+                <div class="alt">
+                  <div class="alt-sol">
+                    <div class="product-location">
+                      <img src="images/showcase/konum-logo.svg" alt="" />
+                      <p>Ankara</p>
+                    </div>
+                    <div class="product-location">
+                      <img src="images/showcase/satılık-logo.svg" alt="" />
+                      <p>Satılık</p>
+                    </div>
+                  </div>
+
+                  <div class="price">
+                    <p>3.800.000 ₺</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ! Showcase End -->
+    <!-- ! News Start -->
+    <div class="news-header"><p>Haberler & Blog</p></div>
+    <section class="news">
+      <button id="prev" class="news-btn">
+        <i class="las la-angle-left"></i>
+      </button>
+      <div class="news-content">
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+        <div class="new">
+          <div class="news-img">
+            <img src="images/slider/slider-3.png" alt="" />
+            <h5>YENİ ARAÇ</h5>
+            <div class="amblem">
+              <img src="images/ford-amblem.svg" alt="amblem" />
+            </div>
+            <p></p>
+          </div>
+          <div class="news-text">
+            <div class="text-1">
+              <h2>2025 Model Yeni Ford EcoSport 1.5L</h2>
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            </div>
+            <div class="text-2">
+              <p>yıldızlar</p>
+              <p>yorum sayısı</p>
+            </div>
+
+            <div class="text-3">
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+              <div>özellikler 5 tane</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="next" class="news-btn">
+        <i class="las la-angle-right"></i>
+      </button>
+    </section>
+    <!-- ! News End -->
+
+    <!-- ! Download Start -->
+    <section class="download">
+      <div class="phone"><img src="images/download/phone.png" alt="" /></div>
+      <div class="download-box">
+        <div class="download-1">
+          <img src="images/download/rocket.png" alt="" />
+          <h1>Hemen İndir!</h1>
+        </div>
+        <div class="download-2">
+          <div class="download-left">
+            <img src="images/download/karekod.png" alt="" />
+          </div>
+          <div class="download-right">
+            <button><img src="images/download/apple.png" alt="" /></button>
+            <button><img src="images/download/play.png" alt="" /></button>
+            <button><img src="images/download/appgallery.png" alt="" /></button>
+          </div>
+        </div>
+        <div class="download-3">
+          <p>Sende hemen indir, alım satım dünyasına katıl!</p>
+        </div>
+      </div>
+    </section>
+    <!-- ! Download End -->
+    <!-- ! Footer Start -->
+    <footer class="footerr">
+      <div class="footer-div satariz">
+        <div class="satariz-logo"><a href="">sattım gitti.</a></div>
+        <div class="satariz-1">
+          <a class="com" href="">
+            <i class="fa-regular fa-message"></i>
+            <p>help.sattımgitti.com</p></a
+          >
+          <a class="com" href=""
+            ><i class="fa-solid fa-envelope"></i>
+            <p>info@sattımgitti.com</p>
+          </a>
+          <a class="com" href=""
+            ><i class="fa-solid fa-phone"></i>
+            <p>0850 000 00 00</p></a
+          >
+        </div>
+
+        <div class="elbis">Elbis'e Kayıtlıdır!</div>
+      </div>
+      <div class="footer-sag">
+        <div class="footer-div kurumsal">
+          <h3>Kurumsal</h3>
+          <a href="#">Hakkımızda<span>></span></a>
+          <a href="#">Haberler<span> ></span></a>
+          <a href="#">Site Haritası<span> ></span></a>
+          <a href="#">Reklam Verin<span> ></span></a>
+        </div>
+        <div class="footer-div yardim">
+          <h3>Yardım</h3>
+          <a href="#">Hesap Sözleşmesi<span>></span></a>
+          <a href="#">Kullanım Koşulları<span> ></span></a>
+          <a href="#">K.V.K.K. Metni<span> ></span></a>
+          <a href="#">Çerez Yönetimi<span> ></span></a>
+          <a href="#">İletişim<span> ></span></a>
+        </div>
+        <div class="footer-div magaza">
+          <h3>Mağaza</h3>
+          <a href="#">Mağaza Oluştur<span>></span></a>
+          <a href="#">Bilgilendirmeler<span> ></span></a>
+          <a href="#">Mağaza Ücretleri<span> ></span></a>
+          <a href="#">Mağaza Şartları<span> ></span></a>
+        </div>
+        <div class="footer-div takip">
+          <h3>Bizi Takip Edin</h3>
+          <a href="#">Facebook<span>></span></a>
+          <a href="#">İnstagram<span> ></span></a>
+          <a href="#">X (Twitter)<span> ></span></a>
+          <a href="#">Linkedin <span> ></span></a>
+          <a href="#">Youtube <span> ></span></a>
+        </div>
+      </div>
+    </footer>
+    <div class="copyr">
+      COPYRIGHT <i class="fa-regular fa-copyright"></i> 2025. Tüm hakları
+      saklıdır. Created by Fatih Mustafa Dönmez
+    </div>
+    <!-- ! Footer End -->
+
+    <!-- ! JAVASCRİPT -->
+
+    <script src="js/script.js"></script>
+    <script src="js/story.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/search.js"></script>
+    <!-- !Swiper Slider JS -->
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper-st", {
+        slidesPerView: "auto",
+      });
+    </script>
+  </body>
+</html>
